@@ -1,0 +1,10 @@
+{
+  "ApplicationInsights": {
+    "InstrumentationKey": "646738f7-49a7-4ac9-9cd9-18f76290b3cd"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-sytest9996-5d6aa1de-16d9-435e-89a1-9e0f755ade48;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
