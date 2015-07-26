@@ -3,5 +3,6 @@
   <PropertyGroup>
     <ActiveDebugProfile>IIS Express</ActiveDebugProfile>
     <AutoRefresh>false</AutoRefresh>
+    <NameOfLastUsedPublishProfile>sytest9996</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
