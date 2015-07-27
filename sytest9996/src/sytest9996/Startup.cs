@@ -77,6 +77,12 @@ namespace sytest9996
                 options.AppSecret = Configuration["Authentication:Facebook:AppSecret"];
             });
 
+            services.Configure<GoogleAuthenticationOptions>(options =>
+            {
+                options.ClientId = Configuration["Authentication:Google:ClientId"];
+                options.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
+            });
+
             services.Configure<MicrosoftAccountAuthenticationOptions>(options =>
             {
                 options.ClientId = Configuration["Authentication:MicrosoftAccount:ClientId"];
@@ -131,8 +137,8 @@ namespace sytest9996
 
             // Add authentication middleware to the request pipeline. You can configure options such as Id and Secret in the ConfigureServices method.
             // For more information see http://go.microsoft.com/fwlink/?LinkID=532715
-            // app.UseFacebookAuthentication();
-            // app.UseGoogleAuthentication();
+            app.UseFacebookAuthentication();
+            app.UseGoogleAuthentication();
             // app.UseMicrosoftAccountAuthentication();
             // app.UseTwitterAuthentication();
 
