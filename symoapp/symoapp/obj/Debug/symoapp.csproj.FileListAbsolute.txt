@@ -114,7 +114,6 @@ C:\Users\selimy\Documents\Visual Studio 2015\Projects\selimy-gits\symoapp\symoap
 C:\Users\selimy\Documents\Visual Studio 2015\Projects\selimy-gits\symoapp\symoapp\bin\ru\System.Spatial.resources.dll
 C:\Users\selimy\Documents\Visual Studio 2015\Projects\selimy-gits\symoapp\symoapp\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\selimy\Documents\Visual Studio 2015\Projects\selimy-gits\symoapp\symoapp\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\selimy\Documents\Visual Studio 2015\Projects\selimy-gits\symoapp\symoapp\obj\Debug\symoapp.csprojResolveAssemblyReference.cache
 C:\Users\selimy\Documents\Visual Studio 2015\Projects\selimy-gits\symoapp\symoapp\obj\Debug\symoapp.dll
 C:\Users\selimy\Documents\Visual Studio 2015\Projects\selimy-gits\symoapp\symoapp\obj\Debug\symoapp.pdb
 C:\Users\selimy\Documents\Visual Studio 2015\Projects\selimy-gits\symoapp\symoapp\bin\Microsoft.Azure.AppService.ApiApps.Service.dll

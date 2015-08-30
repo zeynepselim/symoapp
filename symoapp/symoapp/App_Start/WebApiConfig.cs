@@ -34,8 +34,8 @@ namespace symoapp
         {
             List<TodoItem> todoItems = new List<TodoItem>
             {
-                new TodoItem { Id = Guid.NewGuid().ToString(), Text = "First item", Complete = false },
-                new TodoItem { Id = Guid.NewGuid().ToString(), Text = "Second item", Complete = false },
+                new TodoItem { Id = Guid.NewGuid().ToString(), Text = "First item", Details = "First Details", Complete = false },
+                new TodoItem { Id = Guid.NewGuid().ToString(), Text = "Second item", Details = "Second Details", Complete = false },
             };
 
             foreach (TodoItem todoItem in todoItems)

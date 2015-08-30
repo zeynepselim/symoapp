@@ -6,6 +6,8 @@ namespace symoapp.DataObjects
     {
         public string Text { get; set; }
 
+        public string Details { get; set; }
+
         public bool Complete { get; set; }
     }
 }
