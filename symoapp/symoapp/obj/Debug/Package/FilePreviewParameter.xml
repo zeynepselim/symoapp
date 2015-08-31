@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="IIS Web Application Name" description="" value="Microsoft-ApiAppe97fea9422d0409fb6496bf03c9b4c62" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\selimy\\Documents\\Visual\ Studio\ 2015\\Projects\\selimy-gits\\symoapp\\symoapp\\obj\\Debug\\Package\\PackageTmp$" />
-    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\selimy\\Documents\\Visual\ Studio\ 2015\\Projects\\selimy-gits\\symoapp\\symoapp\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\selimy\\Source\\Repos\\symoapp\\symoapp\\symoapp\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\selimy\\Source\\Repos\\symoapp\\symoapp\\symoapp\\obj\\Debug\\Package\\PackageTmp$" />
   </parameter>
   <parameter name="MS_TableConnectionString-Web.config Connection String" description="" value="Data Source=(localdb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-symoapp-20150801081008.mdf;Initial Catalog=aspnet-symoapp-20150801081008;Integrated Security=True;MultipleActiveResultSets=True" tags="">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\selimy\\Documents\\Visual\ Studio\ 2015\\Projects\\selimy-gits\\symoapp\\symoapp\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MS_TableConnectionString']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\selimy\\Source\\Repos\\symoapp\\symoapp\\symoapp\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MS_TableConnectionString']/@connectionString" />
   </parameter>
 </parameters>

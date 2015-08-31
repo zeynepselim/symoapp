@@ -38,9 +38,20 @@ namespace symoapp
                 new TodoItem { Id = Guid.NewGuid().ToString(), Text = "Second item", Details = "Second Details", Complete = false },
             };
 
+            List<Person> people = new List<Person>
+            {
+                new Person { Id = Guid.NewGuid().ToString(), Name = "Jane Doe", EmailAddress = "janedoe@fabrikam.com" },
+                new Person { Id = Guid.NewGuid().ToString(), Name = "John Doe", EmailAddress = "johndoe@fabrikam.com" },
+            };
+
             foreach (TodoItem todoItem in todoItems)
             {
                 context.Set<TodoItem>().Add(todoItem);
+            }
+
+            foreach (Person person in people)
+            {
+                context.Set<Person>().Add(person);
             }
 
             base.Seed(context);

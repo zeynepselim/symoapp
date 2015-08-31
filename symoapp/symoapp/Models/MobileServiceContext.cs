@@ -29,6 +29,8 @@ namespace symoapp.Models
 
         public DbSet<TodoItem> TodoItems { get; set; }
 
+        public DbSet<Person> People { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             string schema = ServiceSettingsDictionary.GetSchemaName();
